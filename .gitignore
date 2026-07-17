@@ -1,5 +1,7 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
 .env
 ct200.db
+.pytest_cache/
