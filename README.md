@@ -29,7 +29,6 @@ The CT-200 QA API solves a real problem in regulated software development: keepi
 ---
 
 ## 🏗️ Architecture
-## 🏗️ Architecture
 
 <pre>
 tri9t-ct200/
@@ -65,6 +64,26 @@ tri9t-ct200/
 | Testing | pytest |
 
 ---
+## 📸 Screenshots
+
+### API Overview
+![App Overview](screenshots/App%20overview.png)
+
+### Homepage
+![Homepage](screenshots/Homepage.png)
+
+### All Tests Passing
+![Pass Test Cases](screenshots/Passtestcases.png)
+
+### Post Selections
+![Post Selections](screenshots/Post%20selections%20test.png)
+
+### Running Application
+![Run Application](screenshots/Run%20application%20cmd.png)
+
+### Project Structure in VS Code
+![VS Code Structure](screenshots/VScode%20structure.png)
+
 
 ## ⚙️ Setup
 
