@@ -29,22 +29,32 @@ The CT-200 QA API solves a real problem in regulated software development: keepi
 ---
 
 ## 🏗️ Architecture
+## 🏗️ Architecture
+
+<pre>
 tri9t-ct200/
+│
 ├── app/
-│   ├── main.py          # FastAPI routes
-│   ├── models.py        # SQLAlchemy models
-│   ├── database.py      # DB connection + init
-│   ├── parser.py        # PDF parsing + tree building
-│   ├── ingest.py        # Document ingestion logic
-│   └── llm.py           # Groq LLM integration
+│   ├── main.py           # FastAPI routes
+│   ├── models.py         # SQLAlchemy models
+│   ├── database.py       # DB connection + init
+│   ├── parser.py         # PDF parsing + tree building
+│   ├── ingest.py         # Document ingestion logic
+│   └── llm.py            # Groq LLM integration
+│
 ├── data/
-│   ├── ct200_manual.pdf      # V1 document
-│   └── ct200_manual_v2.pdf   # V2 document
-├── ingest_run.py        # Run to ingest both versions
-├── test_parser.py       # Unit tests
-├── generations.json     # LLM output store (JSON)
+│   ├── ct200_manual.pdf       # V1 document
+│   └── ct200_manual_v2.pdf    # V2 document
+│
+├── ingest_run.py         # Run to ingest both versions
+├── test_parser.py        # Unit tests
+├── generations.json      # LLM output store (JSON)
+├── .gitignore
 └── README.md
-**Tech Stack:**
+</pre>
+
+## ⚙️ Tech Stack
+
 | Layer | Technology |
 |---|---|
 | API Framework | FastAPI |
